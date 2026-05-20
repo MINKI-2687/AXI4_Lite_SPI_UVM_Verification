@@ -7,6 +7,7 @@
 
 ## 📌 프로젝트 요약
 [![Presentation PDF](https://img.shields.io/badge/Presentation-PDF-red?logo=adobe)](docs/260508_SoC_AXI_Peripheral_MinkiKim.pdf)
+
 AXI4-Lite 버스 인터페이스를 갖는 **SPI Master IP**를 직접 설계하고,  
 **UVM 1.2** 검증 환경을 구축하여 1,000회 랜덤 시나리오 기반 기능 검증을 수행한 프로젝트입니다.
 
