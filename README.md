@@ -6,6 +6,7 @@
 <br>
 
 ## 📌 프로젝트 요약
+[![Presentation PDF](https://img.shields.io/badge/Presentation-PDF-red?logo=adobe)](docs/260508_SoC_AXI_Peripheral_MinkiKim.pdf)
 
 AXI4-Lite 버스 인터페이스를 갖는 **SPI Master IP**를 직접 설계하고,  
 **UVM 1.2** 검증 환경을 구축하여 1,000회 랜덤 시나리오 기반 기능 검증을 수행한 프로젝트입니다.
@@ -407,16 +408,17 @@ axi-spi-uvm-verification/
 │
 ├── docs/
 │   └── images/                          # README 삽입 이미지
-│       ├── axi4_lite_protocol.jpeg
-│       ├── spi_register_map.jpeg
-│       ├── sw_layered_architecture.jpeg
-│       ├── uvm_env_structure.jpeg
-│       ├── verdi_waveform.jpeg
-│       ├── vcs_result_coverage.jpeg
-│       ├── ts_problem.jpeg
-│       ├── ts_cause_waveform.jpeg
-│       ├── ts_fix_result.jpeg
-│       └── ts_busy_waveform.jpeg
+│   │   ├── axi4_lite_protocol.jpeg
+│   │   ├── spi_register_map.jpeg
+│   │   ├── sw_layered_architecture.jpeg
+│   │   ├── uvm_env_structure.jpeg
+│   │   ├── verdi_waveform.jpeg
+│   │   ├── vcs_result_coverage.jpeg
+│   │   ├── ts_problem.jpeg
+│   │   ├── ts_cause_waveform.jpeg
+│   │   ├── ts_fix_result.jpeg
+│   │   └── ts_busy_waveform.jpeg
+│   └── 260508_SoC_AXI_Peripheral_MinkiKim.pdf
 │
 ├── filelist.f                            # VCS 컴파일 파일 목록
 └── Makefile                              # 빌드 자동화
